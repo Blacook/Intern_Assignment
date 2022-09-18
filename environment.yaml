@@ -1,0 +1,21 @@
+name: datascience
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - jupyter
+  - matplotlib
+  - seaborn
+  - geopandas
+  - opencv
+  - pip:
+    - optuna
+    - seaborn-analyzer
+    - pandas-profiling
+prefix: /~/miniforge3/envs/datascience
